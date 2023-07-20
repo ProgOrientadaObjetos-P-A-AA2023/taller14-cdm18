@@ -31,7 +31,7 @@ public class Alumno {
         return nota1;
     }
 
-    public void estableceNota2(double c) {
+    public void establecerNota2(double c) {
         nota2 = c;
     }
 
@@ -59,10 +59,10 @@ public class Alumno {
     public String toString() {
         String cadena = String.format("%s %s\n"
                 + "\tCalificaciones:\n"
-                + "\t%.2f\n"
-                + "\t%.2f\n"
-                + "\t%.2f\n"
-                + "\tPromedio: %.2f\n",
+                + "\t%.1f\n"
+                + "\t%.1f\n"
+                + "\t%.1f\n"
+                + "\tPromedio: %.1f\n",
                 obtenerNombre(),
                 obtenerApellido(),
                 obtenerNota1(),

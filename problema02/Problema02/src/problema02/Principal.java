@@ -20,6 +20,11 @@ public class Principal {
         // TODO code application logic here
         Enlace c = new Enlace();
         
+        c.establecerConexion();
+        
+        for (int i = 0; i < c.obtenerDataAlumno().size(); i++) {
+            System.out.println(c.obtenerDataAlumno().get(i));
+        }
         
     }
     

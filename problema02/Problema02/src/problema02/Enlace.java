@@ -78,6 +78,10 @@ public class Enlace {
                 Alumno alumno = new Alumno();
                 alumno.establecerNombre(rs.getString("nombre"));
                 alumno.establecerApellido(rs.getString("apellido"));
+                alumno.establecerNota1(rs.getDouble("calificacion1"));
+                alumno.establecerNota2(rs.getDouble("calificacion2"));
+                alumno.establecerNota3(rs.getDouble("calificacion3"));
+                alumno.calcularPromedio();
                 lista.add(alumno);
             }
             

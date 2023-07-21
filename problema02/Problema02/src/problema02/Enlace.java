@@ -47,8 +47,8 @@ public class Enlace {
         try{  
             establecerConexion();
             Statement statement = obtenerConexion().createStatement();
-            String data = String.format("INSERT INTO base001 (placa,"
-                    + "valor_matricula) "
+            String data = String.format("INSERT INTO estudiante (nombre,"
+                    + "apellido, calificacion1, calificacion2, calificacion3) "
                     + "values ('%s', '%s', %s, %s, %s, %s)", 
                     alumno.obtenerNombre(), 
                     alumno.obtenerApellido(),
@@ -87,7 +87,7 @@ public class Enlace {
             
             obtenerConexion().close(); 
         } catch (SQLException e) {  
-             System.out.println("Exception: insertarCiudad");
+             System.out.println("Exception: insertarAlumno");
              System.out.println(e.getMessage());  
              
         }  

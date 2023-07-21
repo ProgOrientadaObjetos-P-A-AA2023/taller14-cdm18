@@ -1,6 +1,5 @@
 package problema02;
 
-import java.util.ArrayList;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -25,6 +24,7 @@ public class Principal {
         for (int i = 0; i < c.obtenerDataAlumno().size(); i++) {
             System.out.println(c.obtenerDataAlumno().get(i));
         }
+        
         
     }
     

@@ -1,4 +1,4 @@
-# taller14
+# taller14 Por Italo Lopez y Carlos Mejia
 
 ## Problema 01
 * Generar un programa que permita ingresar por teclado información que corresponde a
